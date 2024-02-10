@@ -1,0 +1,66 @@
+.the-spicy-container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.noButton {
+  background-color: #f07777;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  margin: 0 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.noButton:hover {
+  background-color: #fff;
+}
+
+.noButton:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.yesButton {
+  background-color: #81f077;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  margin: 0 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.yesButton:hover {
+  background-color: #fff;
+}
+
+.yesButton:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.successText {
+  text-shadow: 1px 1px pink;
+  letter-spacing: 5px;
+  font-size : 40px;
+  font-weight :500;
+  padding-top: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
+
+.questionText {
+  text-shadow: 1px 1px pink;
+  letter-spacing: 3px;
+  font-size : 40px;
+  font-weight :500;
+  padding-bottom: 20px;
+  padding-top: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
